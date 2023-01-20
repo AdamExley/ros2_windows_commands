@@ -15,9 +15,19 @@ Assumes ROS2 Humble is installed.
 
 `colcon_build_verbose` - Build your workspace, echoing any errors that occur during compilation or building
 
-`colcon_build_pkg <package>` - Build `<package>` within your workspace
+`colcon_build_pkg <packages>` - Build `<packages>` within your workspace
 
-`colcon_build_pkg_v <package>` - Build `<package>` within your workspace, echoing any errors that occur during compilation or building
+`colcon_build_pkg_v <packages>` - Build `<packages>` within your workspace, echoing any errors that occur during compilation or building
+
+
+---
+
+
+`colcon_test` - Run tests on your workspace (verbose)
+
+`colcon_test_silent` - Run tests on your workspace, only printing results
+
+`colcon_test_pkg <packages>` - Test `<packages>` within your workspace
 
 
 ## Installation

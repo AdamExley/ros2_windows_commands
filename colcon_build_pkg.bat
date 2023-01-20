@@ -1,1 +1,1 @@
-colcon build --merge-install --packages-select %1
+colcon build --merge-install --packages-select %*

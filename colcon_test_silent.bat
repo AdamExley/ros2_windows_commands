@@ -1,0 +1,1 @@
+colcon test --merge-install
