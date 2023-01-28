@@ -1,1 +1,1 @@
-colcon build --merge-install
+colcon build --merge-install --symlink-install
